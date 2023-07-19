@@ -64,7 +64,7 @@ const ListPost = () => {
                 <div className="flex flex-col justify-between py-6 lg:mx-6">
                   <a
                     href="#"
-                    className="text-xl font-semibold text-gray-800 hover:underline dark:text-white "
+                    className="text-md font-semibold text-gray-800 hover:underline hover:text-cyan-400 dark:text-white "
                   >
                     {dt.title}
                   </a>
