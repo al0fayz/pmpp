@@ -2,6 +2,7 @@ import { useState } from "react";
 import clsx from "clsx";
 import Link from "next/link";
 import Image from "next/image";
+import { FiInstagram, FiYoutube } from "react-icons/fi";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -13,10 +14,10 @@ const Navbar = () => {
       <nav className="sticky top-0 bg-white shadow dark:bg-gray-800 z-50">
         <div className="container px-6 py-3 mx-auto md:flex md:justify-between md:items-center">
           <div className="flex items-end justify-between">
-            <a href="/"><Image width={100} height={100} src="/img/logo-pmpp.webp" alt="logo" /></a>
-            {/* <a href="/" className="font-bold text-blue-900 lg:pl-2 ">
-              IDADX
-            </a> */}
+            <a href="/"><Image width={30} height={30} src="/img/logo-pmpp.webp" alt="logo" /></a>
+            <a href="/" className="font-bold text-cyan-800 lg:pl-2 ">
+              PMPP
+            </a>
 
             {/* <!-- Mobile menu button --> */}
             <div className="flex lg:hidden">
@@ -82,21 +83,34 @@ const Navbar = () => {
                 href="/report"
                 className="my-2 text-gray-700 transition-colors duration-300 transform dark:text-gray-200 hover:text-teal-500 dark:hover:text-teal-400 md:mx-4 md:my-0"
               >
-                Report Phishing
+                Sejarah
               </Link>
               <Link
                 href="/#faq-section"
                 className="my-2 text-gray-700 transition-colors duration-300 transform dark:text-gray-200 hover:text-teal-500 dark:hover:text-teal-400 md:mx-4 md:my-0"
               >
-                FAQ
+                Tugas Pokok
               </Link>
 
               <Link
                 href="/register"
                 className="my-2 text-gray-700 transition-colors duration-300 transform dark:text-gray-200 hover:text-teal-500 dark:hover:text-teal-400 md:mx-4 md:my-0"
               >
-                Join Member
+                Struktur organisasi
               </Link>
+
+              <a
+                href="/"
+                className="text-gray-500 transition-colors duration-300 hover:text-teal-400"
+              >
+                <FiYoutube size={24} className="stroke-current hover:text-teal-400 mr-2" />
+              </a>
+              <a
+                href="/"
+                className="text-gray-500 transition-colors duration-300 hover:text-teal-400"
+              >
+                <FiInstagram size={22} className="stroke-current hover:text-teal-400 mr-2" />
+              </a>
             </div>
           </div>
         </div>
