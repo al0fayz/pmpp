@@ -15,17 +15,17 @@ const Navbar = () => {
       <nav className="sticky top-0 bg-white shadow dark:bg-gray-800 z-50">
         <div className="container px-6 py-3 mx-auto md:flex md:justify-between md:items-center">
           <div className="flex items-end justify-between">
-            <a href="/">
+            <Link href="/">
               <Image
                 width={30}
                 height={30}
                 src="/img/logo-pmpp.webp"
                 alt="logo"
               />
-            </a>
-            <a href="/" className="font-bold text-cyan-800 lg:pl-2 ">
+            </Link>
+            <Link href="/" className="font-bold text-cyan-800 lg:pl-2 ">
               PMPP
-            </a>
+            </Link>
 
             {/* <!-- Mobile menu button --> */}
             <div className="flex lg:hidden">
@@ -226,7 +226,7 @@ const Navbar = () => {
               >
                 Hubungi Kami
               </Link>
-              <a
+              <Link
                 href="/"
                 className="text-gray-500 transition-colors duration-300 hover:text-teal-400"
               >
@@ -234,8 +234,8 @@ const Navbar = () => {
                   size={24}
                   className="stroke-current hover:text-teal-400 mr-2"
                 />
-              </a>
-              <a
+              </Link>
+              <Link
                 href="/"
                 className="text-gray-500 transition-colors duration-300 hover:text-teal-400"
               >
@@ -243,7 +243,7 @@ const Navbar = () => {
                   size={22}
                   className="stroke-current hover:text-teal-400 mr-2"
                 />
-              </a>
+              </Link>
             </div>
           </div>
         </div>

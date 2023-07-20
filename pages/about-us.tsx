@@ -9,7 +9,7 @@ const AboutUs = () => {
         <h1 className="my-5 text-xl font-semibold text-cyan-700">About Us</h1>
         <p className="text-justify">
           Bangsa Indonesia mempunyai komitmen yang berkaitan dengan perdamaian
-          dunia. Komitmen tersebut tertulis pada alenia ke-4 Pembukaan UUD '45
+          dunia. Komitmen tersebut tertulis pada alenia ke-4 Pembukaan UUD &lsquo;45
           yang berbunyi “… ikut melaksanakan ketertiban dunia yang berdasarkan
           kemerdekaan, perdamaian abadi dan keadilan sosial…”. Untuk mewadahi
           komitmen tersebut, Pemerintah Indonesia pada masa pemerintahan

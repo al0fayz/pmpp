@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { useState } from "react";
 import { FiInstagram, FiYoutube } from "react-icons/fi";
+import Link from "next/link";
 
 const Footer = () => {
   const date = new Date();
@@ -32,28 +33,28 @@ const Footer = () => {
                 </p>
                 <ul className="mt-2 space-y-2 text-sm lg:text-base">
                   <li>
-                    <a
-                      href="/report"
+                    <Link
+                      href="#"
                       className="text-gray-500 transition-colors duration-300 hover:text-teal-400"
                     >
                       Sejarah
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href="/"
+                    <Link
+                      href="#"
                       className="text-gray-500 transition-colors duration-300 hover:text-teal-400"
                     >
                       Tugas Pokok
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href="/register"
+                    <Link
+                      href="#"
                       className="text-gray-500 transition-colors duration-300 hover:text-teal-400"
                     >
                       Struktur organisasi
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -63,28 +64,28 @@ const Footer = () => {
                 </p>
                 <ul className="mt-2 space-y-2">
                   <li>
-                    <a
-                      href="/#faq-section"
+                    <Link
+                      href="#"
                       className="text-gray-500 transition-colors duration-300 hover:text-teal-400"
                     >
                       Komandan dari masa ke masa
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href="/term-and-condition"
+                    <Link
+                      href="#"
                       className="text-gray-500 transition-colors duration-300 hover:text-teal-400"
                     >
                       Kegiatan PMPP TNI
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href="/term-and-condition"
+                    <Link
+                      href="#"
                       className="text-gray-500 transition-colors duration-300 hover:text-teal-400"
                     >
                       Kegiatan Kontingen Garuda
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -115,18 +116,18 @@ const Footer = () => {
               TNI (PMPP TNI). All rights reserved.
             </p>
             <div className="flex items-center mt-4 space-x-4 sm:mt-0">
-              <a
-                href="/"
+              <Link
+                href="#"
                 className="text-gray-500 transition-colors duration-300 hover:text-teal-400"
               >
                 <FiYoutube size={24} className="stroke-current hover:text-teal-400" />
-              </a>
-              <a
-                href="/"
+              </Link>
+              <Link
+                href="#"
                 className="text-gray-500 transition-colors duration-300 hover:text-teal-400"
               >
                 <FiInstagram size={24} className="stroke-current hover:text-teal-400" />
-              </a>
+              </Link>
             </div>
           </div>
         </div>
